@@ -1,90 +1,33 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# My Professional Portfolio
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+This is a multi-page, responsive portfolio website built from scratch using HTML5, CSS3, and vanilla JavaScript. It is designed to showcase my skills and projects as a web developer.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Project Structure
 
----
+The repository is organized into a clean and intuitive folder structure to ensure maintainability and scalability.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+- `/css`: Contains the `style.css` file for all styling and responsive design.
+- `/js`: Contains the `script.js` file for all interactive elements, such as the mobile navigation toggle and form validation.
+- `/images`: Stores all image assets used on the site.
+- The root directory contains the main HTML files for each page: `index.html`, `about.html`, `projects.html`, and `contact.html`.
 
-Before you write any code, take time to plan:
+## Features
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+- **Multi-page Layout:** The site includes a Home, About, Projects, and Contact page.
+- **Responsive Design:** The layout is fully responsive and adjusts seamlessly to different screen sizes using CSS media queries.
+- **Interactive Elements:**
+    - A **mobile navigation menu** that toggles open and closed.
+    - **Client-side form validation** on the Contact page.
+- **Clean Code:** The code is well-commented and organized following best practices.
 
-**Goal:** Show intentional structure and user journey across the site.
+## Live Website
 
----
+You can view the live version of this website here:
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+[Your Live GitHub Pages URL goes here]
 
-Using your plan, begin building:
+_Example: `https://your-username.github.io/my-portfolio`_
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+## How to Run Locally
 
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+To run this project on your local machine, simply clone the repository and open any of the `.html` files in your web browser. All paths are relative, so the site will function as intended.
